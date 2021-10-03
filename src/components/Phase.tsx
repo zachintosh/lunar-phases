@@ -1,6 +1,5 @@
 import { Phase } from './phases'
 import { css } from 'linaria'
-import moonSvg from '../../assets/moon.svg'
 
 const moonCircleCss = css`
   height: var(--moon-size);
@@ -9,7 +8,7 @@ const moonCircleCss = css`
   background: #222;
   overflow: hidden;
   position: relative;
-  background-image: url(${moonSvg});
+  background-image: url('https://freesvg.org/img/full-moon-dan-gerhards-01.png');
   background-size: cover;
 
   --moon-size: 300px;
